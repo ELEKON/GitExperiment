@@ -19,7 +19,7 @@ public class Animal {
 		System.out.println("Sleeping...");
 	}
 	public void move(){
-		int steps = 10;
-		System.out.println("I am moving with my way" + steps);
+		int steps=4;
+		System.out.println("I am moving with my " + steps + "steps, at a time.");
 	}
 }
