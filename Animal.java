@@ -1,6 +1,4 @@
-package base;
-
-public abstract class Animal {
+public class Animal {
 
 	int age;
 	String gender;
@@ -19,7 +17,8 @@ public abstract class Animal {
 	
 	public void sleep() {
 		System.out.println("Sleeping...");
-	} 
-	
-	public abstract void move();
+	}
+	public void move(){
+		System.out.println("I am moving with my way");
+	}
 }
