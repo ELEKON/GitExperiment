@@ -1,4 +1,3 @@
-package base;
 //interface is a contract of doing something
 public interface Flyable {
 	

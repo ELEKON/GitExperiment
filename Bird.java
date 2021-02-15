@@ -1,4 +1,4 @@
-public class Bird extends Animal {
+public class Bird extends Animal implements Flyable {
 
 	public Bird(int age, String gender, int weight) {
 		super(age, gender, weight);
