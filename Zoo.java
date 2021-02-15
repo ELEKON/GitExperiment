@@ -2,7 +2,7 @@ public class Zoo {
 
     public static void main(String[] args) {
         Animal animal1 =new Fish(5, "mame", 134);
-		Animal animal2 =new Bird(3, "female", 104);
+		Animal animal2 =new Bird(9, "male", 54);
 		Animal animal3 =new Chicken(14, "mame", 134);
 
 		animal1.eat();
